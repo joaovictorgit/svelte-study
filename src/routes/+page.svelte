@@ -1,2 +1,12 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import Intro from '$lib/intro.svelte';
+</script>
+
+<Intro 
+    title="Você está pronto <br> para o desafio?"
+    content="A Academia Local está pronta para te ajudar a chegar mais longe e alcançar sua melhor performance."
+    btn="Sobre"
+    href="/sobre"
+    icon="muscle"
+    img= "musculacao"
+/>
